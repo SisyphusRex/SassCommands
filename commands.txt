@@ -1,0 +1,18 @@
+To install Sass:
+    https://sass-lang.com/install/
+    https://github.com/sass/dart-sass/releases/tag/1.85.0
+        pick os and download
+        extract folder in desired directory
+        Add to Path:
+            1. copy path of dart-sass folder
+            2. open advanced system settings
+            3. click environment variables
+            4. choose path in system variables
+            5. add New path and paste dart-sass path
+
+To test in cmd/powershell:
+    sass --version
+
+to test in Git Bash:
+    sass.bat -- version
+    NOTE: for some reason, Git Bash will only recognize sass.bat command
