@@ -16,3 +16,9 @@ To test in cmd/powershell:
 to test in Git Bash:
     sass.bat -- version
     NOTE: for some reason, Git Bash will only recognize sass.bat command
+
+To "compile" in cmd/powershell:
+    sass <source>.scss <target>.css
+
+To "compile" in Git Bash:
+    sass.bat <source>.scss <target>.css
